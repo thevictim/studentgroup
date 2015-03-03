@@ -50,20 +50,61 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Menu</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#location">Location</a></li> 
+        <li><a href="#location">Location</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <br>
 <br>
-<div class="jumbotron">
-  <h1>Seoul taco</h1>
-  
-  
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://www.seoultaco.com/Hero1.jpg" alt="slide1">
+      <div class="carousel-caption">
+        Eat Me
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://farm9.staticflickr.com/8466/8449952207_16370fd63f_c.jpg" alt="slide2">
+      <div class="carousel-caption">
+        Our Bus
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://a3.urbancdn.com/w/s/JE/KZBcXQHIzFKbiv.jpg" alt="slide3">
+      <div class="carousel-caption">
+        Eat me again
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-<div><p style="text-align:center;">6665 Delmar Blvd, 63130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;314.863.1148<br>Mon-Sat 11a-10p, Sun 11a-9p</p></div>
+
+<div class="time">
+  <p style="text-align:center;">6665 Delmar Blvd, 63130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;314.863.1148<br>Mon-Sat 11a-10p, Sun 11a-9p</p>
+</div>
+
 <button type="button" class="btn btn-primary btn-lg btn-block">Reserve a Seat</button>
+<br>
 <form class="form-inline">
   <div class="form-group">
     <label for="exampleInputName2">Name</label>
@@ -75,7 +116,9 @@
   </div>
   <button type="submit" class="btn btn-default">Subscribe! </button>
 </form>
-<h2>MENU</h2>
+</div>
+
+<h2 class="text" style=" padding-left: 10%;">MENU</h2>
 <div class="row">
   <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail">
@@ -111,38 +154,50 @@
 </div>
 <hr>
 <div >
-  <h3>Sides</h3>
+  <h3 class="text" style=" padding-left: 10%;">Sides</h3>
   <div class="row">
     <div class="col-md-3">
       <h4>POT STICKERS</h4>
       <p>Made from scratch, filled with ground pork and veggies</p>
     </div>
-    <div class="col-md-3"> 
+    <div class="col-md-3">
       <h4>KIMCHI SLAW</h4>
       <p>Our version of cole slaw! Vinegar Based with subtle heat</p>
     </div>
-    <div class="col-md-3"> 
+    <div class="col-md-3">
       <h4>TRADITIONAL KIMCHI</h4>
       <p>Spicy Marinated Napa Cabbage...every batch aged to perfection</p>
     </div>
-    <div class="col-md-3"> 
+    <div class="col-md-3">
       <h4>KIMCHI FRIED RICE</h4>
       <p>Kimchi Slaw, spicy rice, topped with green onions. </p>
     </div>
   </div>
 </div>
-</div>
+
 <hr>
 <div >
-  <h3>Drinks</h3>
-  <p>
-    <br><br>
-<strong>$1.5 - Soda</strong><br><br>
-<strong>$2.5 - Specialty Drink</strong><br><br>
-<strong>$1.5 - Bottled H<sub>2</sub>O</strong><br><br>
-<strong>$2 - Korean Hot Tea</strong>
-</p>
+  <h3 class="text" style=" padding-left: 10%;">Drinks</h3>
+  <div class="row">
+    <div class="col-md-3">
+      
+      <p>$1.5 - Soda</p>
+    </div>
+    <div class="col-md-3">
+      
+      <p>$2.5 - Specialty Drink</p>
+    </div>
+    <div class="col-md-3">
+      
+      <p>S$1.5 - Bottled Hn</p>
+    </div>
+    <div class="col-md-3">
+     
+      <p>$2 - Korean Hot Tea </p>
+    </div>
+  </div>
 </div>
+
 <hr>
 <div >
   <a name="location" class="oho"></a>
@@ -154,17 +209,18 @@
 <div>
 <a name="contact" class="oho"></a>
 <h3>Contact</h3>
-<p>314.863.1148</p>
+<p style="text-align:center;" >314.863.1148</p>
 
 <p>
-  <button type="button" class="btn btn-primary"><a href="https://www.facebook.com/SeoulTaco">Facebook</a></button>
+  <button style="float:right;" type="button" class="btn btn-default"><a href="https://www.facebook.com/SeoulTaco">Facebook</a></button>
   <button type="button" class="btn btn-default">Twitter</button>
 </p>
 </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
