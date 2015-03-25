@@ -1,50 +1,35 @@
 body{
-	background-color: #BEC1B8;
-	text-align: center;
-}
-p{
-  letter-spacing: 1px;
-}
-.img{
-	position: absolute;
-right: 50px;
-top: 50px;
-}
-.center{
-  background-color: #D7C8A9;
-  width: 80%;
-  position: relative;
-  left: 10%;
-  bottom: 10px;
-  height: 1500px;
-}
-.prgph{
-  position: absolute;
-  left: 200px;
-  height: 100px;
-  width: 500px;
+	background-color: ;
+	letter-spacing: 1px;
 }
 h1 {
-    font-family: 'Open Sans', serif;
-font-size: 80px;
+font-family: 'Open Sans', serif;
 position: absolute;
-left: 20px;
-top: 0px;
+left: 50px;
+top: 20px;
+font-size: 80px;
 }
-.text{
-	position: relative;
-  top: 100px;
-  width: 150px;
+.center{
+	position:relative;
+}
+.row{
+		position: relative;
+  top: 484px;
+  left: 50px;
+}
+.pp{
+	position: absolute;
+right: 20px;
+top: 50px;
 }
 .fp{
 	font-size: 20px;
   position: absolute;
-  left: 20px;
+  padding-left: 50px;
   top: 170px;
   right: 380px;
 }
-
-.col-xs-6{
-	position: absolute;
-	top:550px;
+li.media{
+	padding-left: 50px;
 }
+
