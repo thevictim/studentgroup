@@ -12,6 +12,7 @@
      <!-- Bootstrap --><link href="personal.css" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,153 +24,154 @@
   <body>
     <ul class="nav nav-tabs nav-justified" >
   <li role="presentation" class="active"><a href="#">Profile</a></li>
-  <li role="presentation"><a href="#">Previous Work</a></li>
-  <li role="presentation"><a href="#">Messages</a></li>
+  <li role="presentation"><a href="#one">Experience</a></li>
+  <li role="presentation"><a href="#two">Interests</a></li>
 </ul>
-    <div class="center">
-      <div class="h1"><h1 >Guanyu Chen</h1></div>
-      <div class="fp"><p >Hi folks! I'm Guanyu Chen, currently a freshman in Washington University in St. Louis. You might not have heard of this school, it's okay. As a freshman, I really don't have anything significant to you to put on here, but this is my first personal website so you can learn a little bit more me if you are interested or if you are grading this. </p><br>
-      <p>In this website you will see my participation in student group, my majors and my interests. I don't have any projects for you to look at right now, unless you are interested in what I did in high school, which I am not interested in anymore.</p>
+    <div class="center container-fluid" >
+      <div class="h1" >Guanyu Chen</div>
+      <div class="fp" ><p>Hi folks! I'm Guanyu Chen, currently a freshman in Washington University in St. Louis. You might not have heard of this school, it's okay. As a freshman, I really don't have anything significant to you to put on here, but this is my first personal website so you can learn a little bit more me if you are interested or if you are grading this. </p><br>
+      <p>In this website you will see my participation in student group, my majors and my interests. I don't have any projects for you to look at right now, unless you are interested in what I did in high school, which I am not interested in <a name="one">anymore.</a></p>
     </div>
-      <div class="pp">
+      <div class="pp" >
         <img src="http://i62.tinypic.com/inbn1c.jpg">
       </div>
     </div>
-    <div class="row">
+<hr>
+    <div class="row container-fluid skill">
   <div class="col-md-3 ">        
     <img src="http://oi61.tinypic.com/2vdmgza.jpg">
     <div class="caption">
         <h3>Treasurer</h3>
-        <p>I am currently the Treasurer of Washington University China Connection.</p>
+        <p class="text">I am currently the Treasurer of Washington University China Connection.</p>
       </div>
 </div>
   <div class="col-md-3 ">        
     <img src="http://oi60.tinypic.com/317k4rc.jpg">
     <div class="caption">
         <h3>Web Developer</h3>
-        <p>Fake it until I make it.</p>
+        <p class="text">Fake it until I make it.</p>
       </div>
 </div>
     <div class="col-md-3 ">        
       <img src="http://oi62.tinypic.com/2wn46tl.jpg">
       <div class="caption">
         <h3>A good student</h3>
-        <p>I think I study pretty hard.</p>
+        <p class="text">I think I study pretty hard.</p>
       </div>
 </div>
 <div class="col-md-3 ">        
       <img src="http://oi59.tinypic.com/2cwvqjn.jpg">
       <div class="caption">
         <h3>A perspective musician</h3>
-        <p>If I think I am a musican, I am a musican. It won't be long.</p>
+        <p class="text">If I think I am a musican, I am a musican. It won't be long.</p>
       </div>
 </div>
 
 </div>
 
-<div class="row">
-  <div class="col-lg-6">
-    <div class="input-group">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-      </span>
-      <input type="text" class="form-control" placeholder="Just say hi! ">
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-  <div class="col-lg-6">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Interested in working with me?">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-      </span>
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-</div><!-- /.row -->
 
-<div style="position:absolute; top:800px;"><hr>
-<ul class="media-list">
-  <li class="media">
-    <div class="media-left">
-      <a href="#">
-        <img class="media-object" src="http://i57.tinypic.com/fxh54h.png" alt="...">
-      </a>
+
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <a name="two">Time management</a>
+        </a>
+      </h4>
     </div>
-    <div class="media-body">
-      <h4 class="media-heading">Directions</h4>
-      I want to be a web developer with a neuroscience background. That sounds werid but I could be the the best neuroscientist among all web developers.
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+         <div class="im"><img class="media-object" src="http://i60.tinypic.com/swdzwg.png" alt="..."></div><p class="des">Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+      </div>
     </div>
-  </li>
-  <li class="media">
-    <div class="media-left">
-      <a href="#">
-        <img class="media-object" src="http://oi60.tinypic.com/2jb2zdl.jpg" alt="...">
-      </a>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Photography
+        </a>
+      </h4>
     </div>
-    <div class="media-body">
-      <h4 class="media-heading">Photography</h4>
-     Yes, I take a lot of photos just for fun. I will try to learn more about photography and some day I will post own work on my own website.
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo"> 
+      <div class="panel-body">
+        <div class="im"><img class="media-object" src="http://oi60.tinypic.com/2jb2zdl.jpg" alt="..."></div><p class="des">asdf asdf sdfsdf fa sf sfsdfdsa dsf ds fdjskd hjdfhk jkdshjkdsg dsjkfs hsf hfjsdf  kjdj hh fks</p>
+      </div>
     </div>
-  </li>
-  <li class="media">
-    <div class="media-left">
-      <a href="#">
-        <img class="media-object" src="http://i61.tinypic.com/281er1l.png" alt="...">
-      </a>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Directions
+        </a>
+      </h4>
     </div>
-    <div class="media-body">
-      <h4 class="media-heading">Bag</h4>
-      I always have my bag with me because it makes me feel prepared no matter where I go.
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+       <div class="im"><img class="media-object" src="http://i57.tinypic.com/fxh54h.png" alt="..."> </div><p class="des">Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+      </div>
     </div>
-  </li>
-</ul>
+  </div>
 </div>
 
-<div style="position:absolute; top:800px; left:50%;"><hr>
-<ul class="media-list">
-  <li class="media">
-    <div class="media-left">
-      <a href="#">
-        <img class="media-object" src="http://i60.tinypic.com/swdzwg.png" alt="...">
-      </a>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+         Stuff
+        </a>
+      </h4>
     </div>
-    <div class="media-body">
-      <h4 class="media-heading">Time Management</h4>
-      This is just the first year of college so there is no way that I can quickly adjust to college life and manage my time well. But at least I get started thinking about time management.
+    <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+         <div class="im"> <img class="media-object" src="http://i58.tinypic.com/168c1hz.png" alt="..."></div><p class="des">Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+      </div>
     </div>
-  </li>
-  <li class="media">
-    <div class="media-left">
-      <a href="#">
-        <img class="media-object" src="http://i58.tinypic.com/168c1hz.png" alt="...">
-      </a>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFive">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         Bags
+        </a>
+      </h4>
     </div>
-    <div class="media-body">
-      <h4 class="media-heading">Stuff</h4>
-      I like making stuff. I mean like a toy car and a wooden chair. Next year I am moving off campus so I will probably make my own furniture.
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive"> 
+      <div class="panel-body">
+        <div class="im"><img class="media-object" src="http://i61.tinypic.com/281er1l.png" alt="..."></div><p class="des">asdf asdf sdfsdf fa sf sfsdfdsa dsf ds fdjskd hjdfhk jkdshjkdsg dsjkfs hsf hfjsdf  kjdj hh fks</p>
+      </div>
     </div>
-  </li>
-  <li class="media">
-    <div class="media-left">
-      <a href="#">
-        <img class="media-object" src="http://i57.tinypic.com/2cwmngh.png" alt="...">
-      </a>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSix">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        Computers
+        </a>
+      </h4>
     </div>
-    <div class="media-body">
-      <h4 class="media-heading">Computer!</h4>
-      I completely run out of words. 
+    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="panel-body">
+       <div class="im"><img class="media-object" src="http://i57.tinypic.com/2cwmngh.png" alt="..."></div><p class="des">. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+      </div>
     </div>
-  </li>
-</ul>
+  </div>
 </div>
    
     
-    
-  
+    <hr>
+<div id="stl"><h1><center><strong>Contact me!</strong></center></h1>
+<p style="text-align:center;">guanyu@wustl.edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:3148631148">314.952.0921</a><br>Guanyu Chen, Washington University in St.Louis</p><br>
+</div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </body>
 </html>
