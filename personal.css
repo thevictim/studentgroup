@@ -1,26 +1,28 @@
+
 body{
-	background-color: ;
+	background-image: url("http://myanimelist.net/images/userwalls/31599.png");
 	letter-spacing: 1px;
-}
-h1 {
+font-family: 'Josefin Sans', sans-serif;/*div {
+	border-style: solid;
+    border-width: 2px;"
+}*/}
+.h1 {
 font-family: 'Open Sans', serif;
 position: absolute;
 left: 50px;
 top: 20px;
-font-size: 80px;
+font-size: 100px;
 }
 .center{
 	position:relative;
+	padding: 5px;
+	height: 500px;
 }
 .row{
 		position: relative;
-  top: 484px;
-  left: 50px;
-}
-.pp{
-	position: absolute;
-right: 20px;
-top: 50px;
+  
+  margin-top: 50px;
+  margin-left: 20px;
 }
 .fp{
 	font-size: 20px;
@@ -29,7 +31,26 @@ top: 50px;
   top: 170px;
   right: 380px;
 }
+.pp{
+	position: absolute;
+right: 20px;
+top: 50px;
+}
+.skill{
+	height: 300px;
+}
+
 li.media{
 	padding-left: 50px;
 }
-
+.caption{
+    position:absolute; 
+	top: 150px;
+}
+.im{
+	float: left;
+	  margin-right: 10px;
+}
+.des{
+font-size: 20px; 
+}
