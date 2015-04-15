@@ -1,56 +1,20 @@
-
-body{
-	background-image: url("http://myanimelist.net/images/userwalls/31599.png");
-	letter-spacing: 1px;
-font-family: 'Josefin Sans', sans-serif;/*div {
-	border-style: solid;
-    border-width: 2px;"
-}*/}
-.h1 {
-font-family: 'Open Sans', serif;
-position: absolute;
-left: 50px;
-top: 20px;
-font-size: 100px;
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
 }
-.center{
-	position:relative;
-	padding: 5px;
-	height: 500px;
+.carousel .item img {
+    width: 100%; /*img width*/
 }
-.row{
-		position: relative;
-  
-  margin-top: 50px;
-  margin-left: 20px;
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
 }
-.fp{
-	font-size: 20px;
-  position: absolute;
-  padding-left: 50px;
-  top: 170px;
-  right: 380px;
-}
-.pp{
-	position: absolute;
-right: 20px;
-top: 50px;
-}
-.skill{
-	height: 300px;
-}
-
-li.media{
-	padding-left: 50px;
-}
-.caption{
-    position:absolute; 
-	top: 150px;
-}
-.im{
-	float: left;
-	  margin-right: 10px;
-}
-.des{
-font-size: 20px; 
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
 }
