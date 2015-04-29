@@ -1,3 +1,6 @@
+body {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcREi5K4SD9GUX09tt01Fcg1XHnwdbYdKrgMDOdoqHWl5VWafFsmiw");
+}
 .carousel .item {
     width: 100%; /*slider width*/
     max-height: 600px; /*slider height*/
